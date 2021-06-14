@@ -82,6 +82,10 @@
                         "enum": [ "fanshim" ]
                       },
                       {
+                        "title": "GarageDoor",
+                        "enum": [ "garagedoor" ]
+                      }
+                      {
                         "title": "Leak Sensor",
                         "enum": [ "leak" ]
                       },
@@ -176,7 +180,7 @@
                     "oneOf": [
                       {
                         "properties": {
-                          "device": { "enum": ["blinkt", "fanshim"] }
+                          "device": { "enum": ["blinkt", "fanshim", "garagedoor"] }
                         }
                       },
                       {
